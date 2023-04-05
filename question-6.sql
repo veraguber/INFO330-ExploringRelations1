@@ -1,0 +1,1 @@
+SELECT SUBSTRING(email, INSTR(email, '@') + 1) AS Domain FROM persons WHERE city='Seattle';
